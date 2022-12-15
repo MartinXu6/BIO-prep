@@ -30,6 +30,6 @@ for move in range(int(moves)):
         if trails[item] >= int(disappear):
             temp.pop(item)
     trails = temp.copy()
-print(current)
+print(f"part a : {current}")
 # b)
-print(trails)
+print(f"part b : {trails}")
